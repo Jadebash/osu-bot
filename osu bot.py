@@ -138,5 +138,5 @@ if __name__ == "__main__":
     if not osu_region:
         exit()
     
-    hit_objects = parse_osu_file("C:\\Users\\your_pcname_here\\AppData\\Local\\osu!\\Songs\\851543 Culprate - Florn\\Culprate - Florn (StarrStyx) [pishi's Easy].osu", 1.4)
+    hit_objects = parse_osu_file("C:\\Users\\your_pcname_here\\AppData\\Local\\osu!\\Songs\\851543 Culprate - Florn\\Culprate - Florn (StarrStyx) [pishi's Easy].osu", 1.4) #you can find .osu files from C:\Users\your_pcname_here\AppData\Local\osu!\Songs\
     play_hit_objects(hit_objects, osu_region)
